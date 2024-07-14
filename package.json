@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+    "render-build": "npm config set //registry.npmjs.org/:_authToken=$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 && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
