@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "render-build": "npm config set //registry.npmjs.org/:_authToken=$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 && npm install && npm run build"
+    "render-build": "npm config set //registry.npmjs.org/:_authToken=$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 && npm install && npm run build",
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "",
